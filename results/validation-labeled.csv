@@ -1,12 +1,12 @@
-MonitoringLocationName,Latitude,Longitude,GMeanTP,sen_slope,TFACTOR,AWS100,AWS25,DEP2WATTBL,SLOPE_1,CM2RESLYR,KFACTWS,PHWATER,CLAY,KSAT,OM,SAND,Land_Cover_Encoded,Cluster,Type,Dist_to_centroid
-Doolittle Brook,42.45,-72.49,16.0,-0.3,2,10.22,4.09,0,12,76,0.28,4.2,9.0,10.0001,10.0,58.0,1,0,Legacy P Sourced Riparian,3.0911729882440073
-Eastman Brook Downstream,42.41,-72.54,59.8,-3.7,5,20.19,5.25,39,2,0,0.37,6.2,9.5,7.76,6.5,21.2,0,2,Eutrophication Potential Riparian,5.411757860121254
-Eastman Brook Upstream,42.42,-72.53,38.3,-3.7,5,20.19,5.25,39,2,0,0.37,6.2,9.5,7.76,6.5,21.2,1,2,Eutrophication Potential Riparian,4.882785285139572
-Horse Farm Brook Downstream,42.38,-72.55,70.1,-8.9,5,20.19,5.25,39,2,0,0.37,6.2,9.5,7.76,6.5,21.2,9,0,Legacy P Sourced Riparian,11.497044332709873
-Horse Farm Brook Upstream,42.37,-72.54,49.8,-5.3,5,15.55,5.0,15,2,0,0.37,5.9,25.0,7.76,4.5,20.5,1,0,Legacy P Sourced Riparian,9.081722721267102
-Knightly Brook,42.39,-72.56,112.0,-0.8,3,10.36,3.17,66,1,66,0.32,5.3,4.6,10.0,3.5,63.4,10,0,Legacy P Sourced Riparian,3.460179323340988
-Lake Warner Mill River,42.39,-72.55,43.7,-0.2,5,17.84,5.0,153,2,0,0.37,5.9,7.0,9.17,3.5,21.9,4,2,Eutrophication Potential Riparian,3.7594004369376335
-Lake Warner Outlet,42.39,-72.58,34.2,0.1,5,8.25,2.92,0,3,0,0.15,5.1,1.0,100.0,4.13,85.0,4,3,Runoff Sourced Riparian,2.002986148535203
-Roaring Brook,42.44,-72.48,11.2,-0.4,3,6.61,2.98,0,5,0,0.1,4.6,2.0,100.0,5.5,81.0,3,3,Runoff Sourced Riparian,1.327212688281603
-Tan Brook Downstream,42.39,-72.54,136.6,-1.1,3,13.38,4.0,23,2,0,0.28,5.9,4.0,23.29,4.0,65.0,3,2,Eutrophication Potential Riparian,4.149493767176447
-Tan Brook Upstream,42.38,-72.52,47.4,-3.7,3,5.81,2.12,0,8,0,0.1,4.6,2.0,100.0,2.8,81.0,3,3,Runoff Sourced Riparian,4.891191538055503
+MonitoringLocationName,Latitude,Longitude,GMeanTP,sen_slope,TFACTOR,AWS100,AWS25,DEP2WATTBL,SLOPE_1,CM2RESLYR,KFACTWS,PHWATER,CLAY,KSAT,OM,SAND,Land_Cover_Encoded,Cluster,Type_ID,Type,Dist_to_centroid
+Doolittle Brook,42.45,-72.49,16.0,-0.3,2,10.22,4.09,0,12,76,0.28,4.2,9.0,10.0001,10.0,58.0,1,0,T1,Legacy P Sourced Riparian,3.0911729882440073
+Eastman Brook Downstream,42.41,-72.54,59.8,-3.7,5,20.19,5.25,39,2,0,0.37,6.2,9.5,7.76,6.5,21.2,0,2,T3,Eutrophication Potential Riparian,5.411757860121254
+Eastman Brook Upstream,42.42,-72.53,38.3,-3.7,5,20.19,5.25,39,2,0,0.37,6.2,9.5,7.76,6.5,21.2,1,2,T3,Eutrophication Potential Riparian,4.882785285139572
+Horse Farm Brook Downstream,42.38,-72.55,70.1,-8.9,5,20.19,5.25,39,2,0,0.37,6.2,9.5,7.76,6.5,21.2,9,0,T1,Legacy P Sourced Riparian,11.497044332709873
+Horse Farm Brook Upstream,42.37,-72.54,49.8,-5.3,5,15.55,5.0,15,2,0,0.37,5.9,25.0,7.76,4.5,20.5,1,0,T1,Legacy P Sourced Riparian,9.081722721267102
+Knightly Brook,42.39,-72.56,112.0,-0.8,3,10.36,3.17,66,1,66,0.32,5.3,4.6,10.0,3.5,63.4,10,0,T1,Legacy P Sourced Riparian,3.460179323340988
+Lake Warner Mill River,42.39,-72.55,43.7,-0.2,5,17.84,5.0,153,2,0,0.37,5.9,7.0,9.17,3.5,21.9,4,2,T3,Eutrophication Potential Riparian,3.7594004369376335
+Lake Warner Outlet,42.39,-72.58,34.2,0.1,5,8.25,2.92,0,3,0,0.15,5.1,1.0,100.0,4.13,85.0,4,3,T4,Runoff Sourced Riparian,2.002986148535203
+Roaring Brook,42.44,-72.48,11.2,-0.4,3,6.61,2.98,0,5,0,0.1,4.6,2.0,100.0,5.5,81.0,3,3,T4,Runoff Sourced Riparian,1.327212688281603
+Tan Brook Downstream,42.39,-72.54,136.6,-1.1,3,13.38,4.0,23,2,0,0.28,5.9,4.0,23.29,4.0,65.0,3,2,T3,Eutrophication Potential Riparian,4.149493767176447
+Tan Brook Upstream,42.38,-72.52,47.4,-3.7,3,5.81,2.12,0,8,0,0.1,4.6,2.0,100.0,2.8,81.0,3,3,T4,Runoff Sourced Riparian,4.891191538055503

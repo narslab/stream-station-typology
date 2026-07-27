@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jupyter nbconvert *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 \"/tmp/claude-1000/-home-jbo-Projects-stream-station-typology/5c3c8371-b269-49f4-b7fc-05075f75e451/scratchpad/gen_notebooks.py\")",
+      "Bash(grep -vE '^\\\\s*$')",
+      "Bash(git commit -q -m 'Split typology notebook into typology + validation, de-verbose, one component per cell *)",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'Add Ward clustering \\(K=5\\) with dendrogram, method comparison, cluster interpretation *)",
+      "Bash(python3 -)",
+      "Bash(git commit -q -m 'Separate figures/ from results/; hyphenate output filenames *)",
+      "Bash(git commit -q -m 'Redesign cluster radar: per-cluster 2x3 grid with capped radial scale *)",
+      "Bash(git commit -q -m 'Add per-cluster PC-score boxen plots; give radar outlier its own scale *)",
+      "Bash(git commit -q -m 'Refine Ward dendrogram: 45deg labels, larger font, blue singleton leaf, no title *)",
+      "Bash(git commit -q -m 'Unify radar scale to -9..6, center bottom row, tune label sizes *)",
+      "Bash(git commit -q -m 'Replace boxen with box + point overlay for PC scores *)",
+      "Bash(git commit -q -m 'Paper-ready figures: drop titles, bigger fonts, name the clusters *)",
+      "Bash(timeout 8 curl -sI \"https://www2.census.gov/geo/tiger/GENZ2021/shp/cb_2021_us_state_20m.zip\")",
+      "Read(//home/jbo/Projects/figures/**)",
+      "Bash(cp ../figures/pc-score-distribution.png /tmp/pcd_run1.png)",
+      "Bash(git commit -q -m 'Rerun on corrected dataset \\(K=4, no singleton\\); rename PCs and cluster types *)",
+      "Read(//home/jbo/Projects/**)",
+      "Bash(git commit -q -m 'Relabel cluster display IDs C0-C3 -> T1-T4 \\(type-indexed\\) *)"
+    ]
+  }
+}

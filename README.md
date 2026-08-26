@@ -4,3 +4,4 @@
 # Riparian area typology analysis  for train set (ss-typology.ipynb,  Figures 7-11, Figures S2-S6, Tables S2-S3)
 # Riparian area typology analysis for test set (ss-validation.ipynb, Figures 12-13, Table 1-2, Table S2-S3)
 # Train and test set typology comparison based on soil-water-TP features (training-validation-comparison.ipynb)
+# [Hydroshare Repository for TP Analyses](https://www.hydroshare.org/resource/5363d2f99d3a49f8b81b4d33ca989b9b/)
